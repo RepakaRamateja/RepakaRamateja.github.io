@@ -1008,3 +1008,118 @@ a.btn:hover {
 .timeline2 .job-desc {
   color: #666;
 }
+
+
+
+
+
+
+.certification-section .filters {
+  list-style: none;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  text-align: center;
+  border-bottom: 1px solid #e8e8e8;
+}
+.certification-section .filters .type {
+  margin-right: 30px;
+  list-style: none;
+  display: inline-block;
+  padding: 8px 15px;
+  color: #8a8a8a;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.certification-section .filters .type:last-child {
+  margin-right: 0;
+}
+.certification-section .filters .type.active {
+  color: #607D8B;
+  border-bottom: 2px solid #607D8B;
+}
+.certification-section .item {
+  margin-bottom: 30px;
+}
+.certification-section .item .figure {
+  margin-bottom: 0;
+}
+.certification-section .item-inner {
+  background: #607D8B;
+  color: #fff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  position: relative;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+.certification-section .item-inner:hover {
+  background: #648291;
+}
+.certification-section .item-inner:hover img {
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+}
+.certification-section .item-inner .content {
+  padding: 30px;
+  padding-bottom: 75px;
+  position: relative;
+}
+.certification-section .item-inner .content a {
+  color: #fff;
+}
+.certification-section .item-inner .content .sub-title {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.certification-section .item-inner .content .meta {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+.certification-section .item-inner .content .action {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+.certification-section .item-inner .link-mask {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.certification-section .filters .type {
+    font-size: 12px;
+    margin-right: 5px;
+    padding: 8px 5px;
+  }
+.certification-section .item-inner .content {
+    padding: 15px;
+  }
+.certification-section .item-inner .content .sub-title {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+.certification-section .item-inner .content .meta {
+    margin-bottom: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+.certification-section .item-inner .content .action {
+    position: static;
+    font-size: 14px;
+  }
